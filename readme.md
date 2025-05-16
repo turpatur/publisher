@@ -8,3 +8,8 @@ run?
 2. The url of: “amqp://guest:guest@localhost:5672” is the same as in the subscriber
 program, what does it mean?
 - Ya, sama. Artinya, publisher dan subscriber akan terhubung pada server amqp yang sama dengan credentials, host, dan port yang sama. 
+
+3. Running RabbitMQ
+![alt text](image.png)
+
+4. 
