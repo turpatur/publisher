@@ -14,3 +14,6 @@ program, what does it mean?
 
 4. Setiap kali publisher dirun, maka publisher mengirim 5 pesan pada message broker, lalu diproses oleh subscriber sehingga dapat ditampilkan melalui console. 
 ![alt text](image-1.png)
+
+5. Setiap kali publisher dirun, maka message rate akan naik, message rate adalah jumlah message yang dikirim ke RabbitMQ dalam suatu jangka waktu. Dalam graph, ada jangka waktu dimana message dikirim pada rate yang konstan, tetapi ada juga message yang dikirim hanya pada suatu jangka waktu sesaat sehingga membentuk spike. 
+![alt text](image-2.png)
