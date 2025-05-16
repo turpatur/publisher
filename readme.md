@@ -12,4 +12,5 @@ program, what does it mean?
 3. Running RabbitMQ
 ![alt text](image.png)
 
-4. 
+4. Setiap kali publisher dirun, maka publisher mengirim 5 pesan pada message broker, lalu diproses oleh subscriber sehingga dapat ditampilkan melalui console. 
+![alt text](image-1.png)
